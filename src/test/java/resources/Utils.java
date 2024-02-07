@@ -42,7 +42,7 @@ public class Utils {
 		Properties prop =new Properties();
 		FileInputStream fis =new FileInputStream("C:\\Users\\rahul\\restassured\\APIFramework\\src\\test\\java\\resources\\global.properties");
 		prop.load(fis);
-		System.out.println(prop.getProperty(key));
+		System.out.println("Deep________"+ prop.getProperty(key));
 		return prop.getProperty(key);
 	
 		
