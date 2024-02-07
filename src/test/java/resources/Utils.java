@@ -42,11 +42,8 @@ public class Utils {
 		Properties prop =new Properties();
 		FileInputStream fis =new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\java\\resources\\global.properties");
 		prop.load(fis);
-<<<<<<< HEAD
 		System.out.println(prop.getProperty(key));
-=======
 		System.out.println("Deep________"+ prop.getProperty(key));
->>>>>>> d2c4e54d7887e3cfa1cfe70bd01a7e51b60b8c34
 		return prop.getProperty(key);
 	
 		
